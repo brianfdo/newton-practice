@@ -26,5 +26,5 @@ def newton_method(x, func, epsilon=0.00005):
 # def function(x):
 #     return float((x-10)**2+10)
 
-# function = lambda x: (x**4)/4 - (x**3) - x
-# newton_method(5, function)
+function = lambda x: (x**4)/4 - (x**3) - x
+newton_method(5, function)
