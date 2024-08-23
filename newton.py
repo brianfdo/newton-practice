@@ -21,6 +21,7 @@ def newton_method(x, func, epsilon=0.00005):
         x_t_1 = x_t
         if x_t > 1e-10:
             raise RuntimeError('Diverged')
+    print("helen says hi")
     return x_t
 
 # def function(x):
